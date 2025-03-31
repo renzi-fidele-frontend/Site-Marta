@@ -200,8 +200,10 @@ footer a {
 }
 
 .categoryCard {
-   background: radial-gradient(circle, #4f47c0, #2e265e);
+   background: radial-gradient(circle, #231e69, #2e265e);
    margin-bottom: 2rem;
+   border: 6px solid #11d9ed;
+   border-radius: 12px;
 }
 
 .categoryCard h6 {
