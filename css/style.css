@@ -13,7 +13,7 @@ h6,
 .h6,
 p,
 span {
-   font-family: "Leon Sans", sans-serif;
+   font-family: "Space Grotesk", sans-serif;
 }
 
 p {
@@ -201,6 +201,7 @@ footer a {
 
 .categoryCard {
    background: radial-gradient(circle, #4f47c0, #2e265e);
+   margin-bottom: 2rem;
 }
 
 .categoryCard h6 {
