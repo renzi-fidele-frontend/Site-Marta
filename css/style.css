@@ -200,9 +200,9 @@ footer a {
 }
 
 .categoryCard {
-   background: radial-gradient(circle, #231e69, #2e265e);
+   /* background: radial-gradient(circle, #231e69, #2e265e); */
    margin-bottom: 2rem;
-   border: 6px solid #11d9ed;
+   border: 6px solid #11eea9;
    border-radius: 12px;
 }
 
@@ -217,12 +217,12 @@ footer a {
 }
 
 .categoryCard .center h6 {
-   background-color: #011046;
-   color: white;
+   background-color: #11eea9;
+   color: black;
 }
 
 .categoryCard .center p {
-   font-size: 14px !important;
+   font-size: 16px !important;
 }
 
 .categoryCard .center span,
