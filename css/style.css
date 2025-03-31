@@ -1,0 +1,278 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+span {
+   font-family: "Leon Sans", sans-serif;
+}
+
+p {
+   font-size: 18px;
+}
+
+a {
+   color: #11eea9;
+}
+
+a:hover {
+   color: #0395fc;
+}
+
+.text-light-blue {
+   color: #0395fc;
+}
+
+.bg-dark-blue {
+   background: #061e3a;
+}
+
+#hero {
+   width: 100%;
+   height: 600px;
+   background: url("../img/fondopixeles.png") center center;
+   background-size: cover !important;
+   position: relative;
+   mix-blend-mode: lighten;
+}
+
+#hero:before {
+   content: "";
+   background: #061e3a;
+   opacity: 0.3;
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+#hero h1 {
+   font-size: 56px;
+}
+
+#hero h2 {
+   color: #11eea9;
+   font-size: 38px;
+   font-weight: 500;
+}
+
+.title {
+   font-size: 3rem;
+}
+
+#hero p {
+   color: #fbfbfc;
+}
+
+@media (max-width: 991px) {
+   #hero h1 {
+      font-size: 32px;
+      line-height: 36px;
+   }
+
+   #hero h2 {
+      font-size: 28px;
+      line-height: 32px;
+   }
+
+   #hero p {
+      font-size: 18px;
+      line-height: 24px;
+   }
+}
+
+.images-logos {
+   grid-gap: 24px;
+}
+
+.images-logos img {
+   max-height: 50px;
+   object-fit: contain;
+}
+
+ul.list-border-left {
+   list-style: none;
+}
+
+ul.list-border-left li {
+   font-size: 20px;
+   border-left: 10px solid #0395fc;
+   line-height: 24px;
+   font-weight: 500;
+}
+
+.card-feature span {
+   font-size: 48px;
+   line-height: 52px;
+}
+
+.card-feature .hr {
+   width: 3px;
+   height: 75px;
+   background: #0395fc;
+}
+
+.btn-contact {
+   color: #061e3a;
+   line-height: 24px;
+   background-color: #11eea9;
+   border-color: #11eea9;
+   transition: 0.3s;
+}
+
+.btn-contact:hover {
+   color: #061e3a;
+   background-color: #0395fc;
+   border-color: #0395fc;
+}
+
+.btn-contact:focus,
+.btn-contact.focus {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+.btn-contact.disabled,
+.btn-contact:disabled {
+   color: #061e3a;
+   background-color: #11eea9;
+   border-color: #11eea9;
+}
+
+.btn-contact:not(:disabled):not(.disabled):active,
+.btn-contact:not(:disabled):not(.disabled).active,
+.show > .btn-contact.dropdown-toggle {
+   color: #061e3a;
+   background-color: #0395fc;
+   border-color: #0395fc;
+}
+.btn-contact:not(:disabled):not(.disabled):active:focus,
+.btn-contact:not(:disabled):not(.disabled).active:focus,
+.show > .btn-contact.dropdown-toggle:focus {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+footer {
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+footer a {
+   font-size: 18px;
+}
+
+/* Renzi Changes */
+
+.firstCard {
+   background-color: #061e3a;
+   border-radius: 0.7rem;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.firstCard h6 {
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.firstCard p {
+   font-size: 2rem;
+   background-color: #4f47c0;
+   border-radius: inherit;
+   font-weight: 700;
+}
+
+.bg1 {
+   background-color: #0a3668e0;
+}
+
+.categoryCard {
+   background: radial-gradient(circle, #4f47c0, #2e265e);
+}
+
+.categoryCard h6 {
+   color: #7b72ff;
+   font-weight: 600;
+}
+
+.categoryCard h5 {
+   font-weight: 700;
+   color: #ffffff;
+}
+
+.categoryCard .center h6 {
+   background-color: #061e3a;
+   color: white;
+}
+
+.categoryCard .center p {
+   font-size: 14px !important;
+}
+
+.categoryCard .center span,
+.categoryCard .bottom span {
+   font-weight: 700;
+}
+
+.categoryCard p,
+.categoryCard ul {
+   text-transform: none;
+}
+
+.categoryCard ul {
+   list-style-type: none;
+   text-align: start;
+   width: 100%;
+}
+
+.categoryCard ul li::before {
+   content: "✓";
+   color: #7b72ff;
+   margin-right: 8px;
+   font-weight: 700;
+}
+
+.slick-dots {
+   bottom: -40px !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+   font-size: 30px !important;
+}
+
+.slick-dots li.slick-active button::before,
+.slick-dots li button::before {
+   color: white !important;
+}
+
+@media screen and (max-width: 1700px) {
+   .right-kit p {
+      font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 1560px) {
+   .right-kit p {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 1450px) {
+   .right-kit p {
+      font-size: 19px;
+   }
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Leon Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('./LeonSans-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Leon Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./LeonSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Leon Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./LeonSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Leon Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./LeonSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Leon Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./LeonSans-Bold.otf') format('opentype');
+}
