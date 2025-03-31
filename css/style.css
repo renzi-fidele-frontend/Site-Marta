@@ -33,7 +33,7 @@ a:hover {
 }
 
 .bg-dark-blue {
-   background: #061e3a;
+   background: #011046;
 }
 
 #hero {
@@ -47,7 +47,7 @@ a:hover {
 
 #hero:before {
    content: "";
-   background: #061e3a;
+   background: #011046;
    opacity: 0.3;
    position: absolute;
    bottom: 0;
@@ -123,7 +123,7 @@ ul.list-border-left li {
 }
 
 .btn-contact {
-   color: #061e3a;
+   color: #011046;
    line-height: 24px;
    background-color: #11eea9;
    border-color: #11eea9;
@@ -131,7 +131,7 @@ ul.list-border-left li {
 }
 
 .btn-contact:hover {
-   color: #061e3a;
+   color: #011046;
    background-color: #0395fc;
    border-color: #0395fc;
 }
@@ -144,7 +144,7 @@ ul.list-border-left li {
 
 .btn-contact.disabled,
 .btn-contact:disabled {
-   color: #061e3a;
+   color: #011046;
    background-color: #11eea9;
    border-color: #11eea9;
 }
@@ -152,7 +152,7 @@ ul.list-border-left li {
 .btn-contact:not(:disabled):not(.disabled):active,
 .btn-contact:not(:disabled):not(.disabled).active,
 .show > .btn-contact.dropdown-toggle {
-   color: #061e3a;
+   color: #011046;
    background-color: #0395fc;
    border-color: #0395fc;
 }
@@ -175,7 +175,7 @@ footer a {
 /* Renzi Changes */
 
 .firstCard {
-   background-color: #061e3a;
+   background-color: #011046;
    border-radius: 0.7rem;
    height: 100%;
    display: flex;
@@ -215,7 +215,7 @@ footer a {
 }
 
 .categoryCard .center h6 {
-   background-color: #061e3a;
+   background-color: #011046;
    color: white;
 }
 
