@@ -210,8 +210,7 @@ footer a {
 }
 
 .categoryCard {
-   /* background: radial-gradient(circle, #231e69, #2e265e); */
-   border: 6px solid #11eea9;
+   border: 6px solid #11d9ed;
    border-radius: 12px;
    height: 100%;
 }
@@ -220,14 +219,20 @@ footer a {
    row-gap: 2rem;
 }
 
-.categoryCard h6 {
-   color: #7b72ff;
+.categoryCard .top h6 {
+   color: black;
+   background-color: #11d9ed;
    font-weight: 600;
+   padding-block: 0.2rem;
+   padding-inline: 0.4rem;
+   margin-inline: auto;
+   width: fit-content;
 }
 
 .categoryCard h5 {
    font-weight: 700;
    color: #ffffff;
+   font-size: 1.7rem;
 }
 
 .categoryCard .center h6 {
@@ -294,6 +299,10 @@ footer a {
 @media screen and (max-width: 1560px) {
    .right-kit p {
       font-size: 20px;
+   }
+
+   .categoryCard h5 {
+      font-size: 1.3rem;
    }
 }
 
