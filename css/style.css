@@ -224,9 +224,11 @@ footer a {
    background-color: #11d9ed;
    font-weight: 600;
    padding-block: 0.2rem;
-   padding-inline: 0.4rem;
+   padding-inline: 0.6rem;
    margin-inline: auto;
    width: fit-content;
+   font-size: 1.1rem;
+   border-radius: 0.5rem;
 }
 
 .categoryCard h5 {
@@ -241,12 +243,13 @@ footer a {
 }
 
 .categoryCard .center p {
-   font-size: 16px !important;
+   font-size: 17px !important;
 }
 
 .categoryCard .center span,
 .categoryCard .bottom span {
    font-weight: 700;
+   font-size: 18px;
 }
 
 .categoryCard p,
@@ -258,7 +261,7 @@ footer a {
    list-style-type: none;
    text-align: start;
    width: 100%;
-   font-weight: 500;
+   font-size: 18px;
 }
 
 .categoryCard ul li::before {
@@ -267,9 +270,10 @@ footer a {
    margin-right: 8px;
    font-weight: 700;
    background-color: #ffffff;
-   line-height: 0;
+   line-height: 18px;
    padding-inline: 4px;
    border-radius: 50%;
+   font-size: 13px;
 }
 
 .slick-dots {
@@ -314,7 +318,6 @@ footer a {
    padding-inline: 0.4rem;
    color: #0e11a8;
    font-size: 15px !important;
-
 }
 
 @media screen and (max-width: 1700px) {
@@ -374,5 +377,9 @@ footer a {
 
    .subtit {
       font-size: 17px;
+   }
+
+   .categoryCard ul {
+      font-size: 16px;
    }
 }
