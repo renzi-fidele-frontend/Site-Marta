@@ -290,6 +290,33 @@ footer a {
    row-gap: 2rem;
 }
 
+.carbon {
+   display: flex;
+   border-radius: 3px;
+   border: 1px solid #00ffbc;
+   justify-content: stretch;
+   text-align: center;
+   align-items: center;
+}
+.carbon span {
+   text-wrap: nowrap;
+   background-color: white;
+   flex-basis: 50%;
+   padding-inline: 0.4rem;
+   color: #0e11a8;
+   font-size: 15px !important;
+}
+.carbon a {
+   text-wrap: nowrap;
+   background-color: #00ffbc;
+   flex-basis: 50%;
+   font-weight: 700;
+   padding-inline: 0.4rem;
+   color: #0e11a8;
+   font-size: 15px !important;
+
+}
+
 @media screen and (max-width: 1700px) {
    .right-kit p {
       font-size: 22px;
