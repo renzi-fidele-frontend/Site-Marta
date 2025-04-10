@@ -294,7 +294,7 @@ footer a {
    row-gap: 2rem;
 }
 
-.carbon {
+.carbon > div {
    display: flex;
    border-radius: 3px;
    border: 1px solid #00ffbc;
@@ -318,6 +318,23 @@ footer a {
    padding-inline: 0.4rem;
    color: #0e11a8;
    font-size: 15px !important;
+}
+
+.carbon p {
+   font-size: 16px;
+}
+
+.usefull a {
+   color: #ffffff;
+   text-decoration: underline;
+   text-transform: uppercase;
+   transition: 0.24s linear all;
+   font-size: 17px;
+}
+
+.usefull a:hover {
+   color: #011046;
+   background-color: white;
 }
 
 @media screen and (max-width: 1700px) {
@@ -380,6 +397,14 @@ footer a {
    }
 
    .categoryCard ul {
+      font-size: 16px;
+   }
+
+   .usefull {
+      gap: .6rem;
+   }
+
+   .usefull a {
       font-size: 16px;
    }
 }
